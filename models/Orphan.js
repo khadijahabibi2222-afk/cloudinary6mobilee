@@ -105,4 +105,4 @@ OrphanSchema.statics.PROJ = {
 module.exports = mongoose.model('Orphan', OrphanSchema);
 
 // school conditional fix
-if (req.body.schoolType === 'public') { req.body.schoolName = ''; }
+
